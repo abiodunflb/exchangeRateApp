@@ -6,6 +6,13 @@
     box-sizing: border-box;
 }
 
+.main-container {
+    background: rgb(4, 37, 0);
+    padding: 20px;
+    color: #fff;
+    border-radius: 40px;
+}
+
 body {
     background-color: #f4f4f4;
     font-family: Arial, Helvetica, sans-serif;
@@ -47,6 +54,7 @@ p {
 }
 
 .currency select {
+    color: var(--primary-color);
     padding: 10px 20px 10px 10px;
     -moz-appearance: none;
     -webkit-appearance: none;
@@ -65,6 +73,7 @@ p {
     background: transparent;
     font-size: 30px;
     text-align: right;
+    color: var(--primary-color);
 }
 
 .swap-rate-container {
